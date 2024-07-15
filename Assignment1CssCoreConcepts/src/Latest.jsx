@@ -8,7 +8,7 @@ function Latest(){
           return(
                <body>
 
-              <div className="relative h-screen w-screen bg-cover bg-center "
+              <div className="relative h-screen w-screen bg-zinc-100 bg-cover bg-center  "
               >
                <div className='flex p-12 items-center justify-center  m-100 bg-zinc-100 shadow-lg rounded-lg'>
                   <div className='flex flex-col' > 
