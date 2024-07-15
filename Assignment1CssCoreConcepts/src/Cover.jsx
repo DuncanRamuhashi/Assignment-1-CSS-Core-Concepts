@@ -5,7 +5,7 @@ function Cover(){
    return(
         <header className=' flex  text-white bg-cover   '  >
             
-            <div className=' flex container mx-auto flex place-self-center py-8 justify-between ' >
+            <div className=' flex container mx-auto flex place-self-center py-9 ps-8 justify-between ' >
              <div className='flex justify-items-start  '>
                  <h1 className='text-4xl font-bold font-mono text-slate-950' >D</h1>
                  <h1 className='text-4xl font-bold font-mono text-zinc-100'>Z</h1>

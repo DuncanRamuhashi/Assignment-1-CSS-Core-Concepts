@@ -14,7 +14,12 @@ function About(){
                             <div className=' bg-white-100  self-center  '>
                               <div className='flex flex-col   bg-center space-y-12' > 
                                      <h1 className='text-3xl text-center font-bold text-black text-4xl'>ABOUT US</h1>
-                                     <h1 className='text-1xl text-center font-bold text-black text-3xl'>________</h1>   
+                                     <div class="  flex place-items-center justify-center ">
+                    
+                                           <div class="justify-center self-center w-20 h-1 bg-stone-950 "></div>  
+                 
+                                    </div> 
+                                   
                                      <h1 className="text-center  text-justify object-center px-20 ">Welcome to our dronoticz, where innovation and technology converge to shape
                                         the future. We revolutionize industries and improve lives worldwide through our passion for pushing
                                         the boundaries of what robots can do. With expertise in AI, computer vision, mechanical engineering, and automation
