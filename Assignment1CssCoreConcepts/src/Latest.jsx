@@ -24,11 +24,11 @@ function Latest(){
                   
                </div>
                <div className="flex flex-row items-center justify-center bg-zinc-100 p-20 space-x-10 ">
-                          <div className="pb-16  bg-white shadow-lg mb-10 space-y-10">
+                          <div className="pb-16 w-1/4 bg-white shadow-lg mb-10 space-y-10">
                                           <img
                                              src={drone1}
                                              alt="Example Image"
-                                             className=" h-64 w-full object-cover"
+                                             className=" h-48 w-full object-cover"
                                           />
                    <div class="  flex place-items-center justify-center ">
                     
@@ -38,11 +38,11 @@ function Latest(){
                                 
                               <h1 className="justify-self-center px-12 text-center">How to automate surveilance drones</h1>
                            </div>
-                           <div className="pb-16  bg-white shadow-lg mb-10 space-y-10">
+                           <div className="pb-16 w-1/4 bg-white shadow-lg mb-10 space-y-10">
                                          <img
                                              src={drone2}
                                              alt="Example Image"
-                                             className=" h-64 w-full object-cover"
+                                             className=" h-48 w-full object-cover"
                                           />
                             <div class="  flex place-items-center justify-center ">
                     
@@ -52,11 +52,11 @@ function Latest(){
                                 
                               <h1 className=" justify-self-center px-12 text-center">Robotics and Artificial Intelligence</h1>
                            </div>
-                           <div className="pb-16  bg-white shadow-lg mb-10 space-y-10">
+                           <div className="pb-16 w-1/4 bg-white shadow-lg mb-10 space-y-10">
                                               <img
                                              src={drone3}
                                              alt="Example Image"
-                                             className=" h-64 w-full object-cover"
+                                             className=" h-48 w-full object-cover"
                                           />
                      <div class="  flex place-items-center justify-center ">
                     
@@ -66,11 +66,11 @@ function Latest(){
                           
                               <h1 className="justify-self-center px-8 text-center">Improving Lives through Robotics Prosthetics</h1>
                            </div>
-                           <div className="pb-16  bg-white shadow-lg mb-10 space-y-10">
+                           <div className="pb-16 w-1/4 bg-white shadow-lg mb-10 space-y-10">
                                              <img
                                              src={drone4}
                                              alt="Example Image"
-                                             className="h-64 w-full object-cover"
+                                             className="h-48 w-full object-cover"
                                           /> 
                     <div class="  flex place-items-center justify-center ">
                     
