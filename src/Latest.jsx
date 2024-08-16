@@ -36,7 +36,7 @@ function Latest(){
 
                   </div> 
                                 
-                              <h1 className="justify-self-center px-12 text-center">How to automate surveilance drones</h1>
+                           <h1 className="justify-self-center px-12 text-center">How to automate surveilance drones</h1>
                            </div>
                            <div className="pb-16 w-1/4 bg-white shadow-lg mb-10 space-y-10">
                                          <img
