@@ -1,14 +1,15 @@
 import mainDrone from './assets/mainDrone.jpg';
 import Cover from './Cover';
 import Display from './Display';
+import biblePhoto from './assets/bibleCover.jpg'
 function Test(){
              
     return(
 
-     <div className="relative h-screen w-screen">
+     <div className="relative h-screen w-full">
          <div
-              className="relative h-screen w-screen bg-cover bg-center rounded-lg"
-              style={{ backgroundImage: `url(${mainDrone})` }}
+              className="relative h-full w-full bg-cover bg-center "
+              style={{ backgroundImage: `url(${biblePhoto})` }}
          >
               <Cover/>
               <Display/>

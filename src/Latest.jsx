@@ -1,92 +1,68 @@
-import drone1 from './assets/drone1.jpg'
-import drone2 from './assets/drone2.jpg'
-import drone3 from './assets/drone3.jpg'
-import drone4 from './assets/drone4.jpg'
+import drone1 from './assets/b1.jpg';
+import drone2 from './assets/b2.jpg';
+import drone3 from './assets/b3.jpg';
+import drone4 from './assets/b4.jpg';
 
-function Latest(){
+function Latest() {
+  return (
+    <body className="bg-zinc-900 text-gray-300">
+      {/* Hero Section */}
+      <div className="relative h-full w-full bg-zinc-900 bg-cover bg-center flex flex-col justify-center items-center text-center p-10">
+        <h1 className="text-5xl font-extrabold text-white mb-6">Latest Versions</h1>
+        <p className="text-xl text-gray-400 max-w-lg">
+          Discover the most recent versions of these popular translations. Each one offers a unique reading experience.
+        </p>
+        <div className="w-24 h-1 mt-4 bg-gray-500"></div>
+      </div>
 
-          return(
-               <body>
+      {/* Cards Section */}
+      <div className="flex flex-row justify-center h-full items-center bg-zinc-800 p-12 space-x-6 space-y-8">
+        {/* Card 1 */}
+        <div className="w-full sm:w-1/3 lg:w-1/4 bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+          <img src={drone1} alt="NASB" className="h-60 w-full object-cover rounded-t-lg" />
+          <div className="p-6">
+            <h2 className="text-xl font-bold text-white mb-2">New American Standard Bible (NASB)</h2>
+            <p className="text-gray-400 text-sm">
+              A highly accurate and literal translation, great for in-depth study, but somewhat challenging to read.
+            </p>
+          </div>
+        </div>
 
-              <div className="relative h-screen w-screen bg-zinc-100 bg-cover bg-center  "
-              >
-               <div className='flex p-12 items-center justify-center  m-100 bg-zinc-100 shadow-lg rounded-lg'>
-                  <div className='flex flex-col space-y-12' > 
-                             <h1 className='text-4xl text-center font-bold text-black text-4xl '>LATEST ARTICLES</h1>
-                              
-                             <div class="  flex place-items-center justify-center ">
-                    
-                                      <div class="justify-center self-center w-2/5 h-1 bg-stone-950 "></div>  
-                 
-                            </div>          
-                  </div>
-                   
-                  
-               </div>
-               <div className="flex flex-row items-center justify-center bg-zinc-100 p-20 space-x-10 ">
-                          <div className="pb-16 w-1/4 bg-white shadow-lg mb-10 space-y-10">
-                                          <img
-                                             src={drone1}
-                                             alt="Example Image"
-                                             className=" h-48 w-full object-cover"
-                                          />
-                   <div class="  flex place-items-center justify-center ">
-                    
-                        <div class="justify-center self-center w-16 h-1 bg-stone-950 "></div>  
+        {/* Card 2 */}
+        <div className="w-full sm:w-1/3 lg:w-1/4 bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+          <img src={drone2} alt="KJV" className="h-60 w-full object-cover rounded-t-lg" />
+          <div className="p-6">
+            <h2 className="text-xl font-bold text-white mb-2">King James Version (KJV)</h2>
+            <p className="text-gray-400 text-sm">
+              One of the oldest and most popular translations, but its archaic language can be difficult for modern readers.
+            </p>
+          </div>
+        </div>
 
-                  </div> 
-                                
-                           <h1 className="justify-self-center px-12 text-center">How to automate surveilance drones</h1>
-                           </div>
-                           <div className="pb-16 w-1/4 bg-white shadow-lg mb-10 space-y-10">
-                                         <img
-                                             src={drone2}
-                                             alt="Example Image"
-                                             className=" h-48 w-full object-cover"
-                                          />
-                            <div class="  flex place-items-center justify-center ">
-                    
-                                 <div class="justify-center self-center w-16 h-1 bg-stone-950 "></div>  
+        {/* Card 3 */}
+        <div className="w-full sm:w-1/3 lg:w-1/4 bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+          <img src={drone3} alt="NLT" className="h-60 w-full object-cover rounded-t-lg" />
+          <div className="p-6">
+            <h2 className="text-xl font-bold text-white mb-2">New Living Translation (NLT)</h2>
+            <p className="text-gray-400 text-sm">
+              An interpretive translation that’s easy to understand, perfect for new readers of the Bible.
+            </p>
+          </div>
+        </div>
 
-                              </div>
-                                
-                              <h1 className=" justify-self-center px-12 text-center">Robotics and Artificial Intelligence</h1>
-                           </div>
-                           <div className="pb-16 w-1/4 bg-white shadow-lg mb-10 space-y-10">
-                                              <img
-                                             src={drone3}
-                                             alt="Example Image"
-                                             className=" h-48 w-full object-cover"
-                                          />
-                     <div class="  flex place-items-center justify-center ">
-                    
-                        <div class="justify-center self-center w-16 h-1 bg-stone-950 "></div>  
-
-                     </div>
-                          
-                              <h1 className="justify-self-center px-8 text-center">Improving Lives through Robotics Prosthetics</h1>
-                           </div>
-                           <div className="pb-16 w-1/4 bg-white shadow-lg mb-10 space-y-10">
-                                             <img
-                                             src={drone4}
-                                             alt="Example Image"
-                                             className="h-48 w-full object-cover"
-                                          /> 
-                    <div class="  flex place-items-center justify-center ">
-                    
-                                <div class="justify-center self-center w-16 h-1 bg-stone-950 "></div>  
-
-                    </div>
-                              
-                              <h1 className="justify-self-center px-12 text-center">Power of Robotics in Agriculture</h1>
-                           </div>
-               </div>
-               </div>   
-               </body>
-
-
-          );
-
-
+        {/* Card 4 */}
+        <div className="w-full sm:w-1/3 lg:w-1/4 bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+          <img src={drone4} alt="NIV" className="h-60 w-full object-cover rounded-t-lg" />
+          <div className="p-6">
+            <h2 className="text-xl font-bold text-white mb-2">New International Version (NIV)</h2>
+            <p className="text-gray-400 text-sm">
+              A popular modern translation, focused on conveying the meaning of the original text.
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  );
 }
-export default Latest
+
+export default Latest;

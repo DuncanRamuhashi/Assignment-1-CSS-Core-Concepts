@@ -15,7 +15,7 @@ function App() {
      <Test/>   
      <Latest/>
      <About/>
-     <Subscribe/>
+
      <Footer/>
     </>    
 
