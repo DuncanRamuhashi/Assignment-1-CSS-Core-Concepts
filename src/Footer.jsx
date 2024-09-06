@@ -1,6 +1,7 @@
 import { FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
+    
   return (
     <div className="flex justify-between   bg-zinc-900 text-gray-300 p-10 space-x-4">
       {/* Social Media Icons */}
