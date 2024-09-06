@@ -20,10 +20,12 @@ function Footer() {
         <a   href="#latest">
         <h1 className=" text-sm md:text-l text-center hover:text-gray-100 cursor-pointer">VERSION</h1>
         </a>
-       
+        <a href='https://thekingsbible.com/'>
         <button className="h-8 w-36  bg-gray-800 text-white ring-1 ring-gray-500 hover:bg-gray-700 hidden md:block">
-             SUBSCRIBE
+             READ BIBLE
         </button>
+        </a>
+
       </div>
     </div>
   );
