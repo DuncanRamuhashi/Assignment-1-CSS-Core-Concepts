@@ -12,11 +12,25 @@ function App() {
   
   return(
     <>
-     <Test/>   
-     <Latest/>
-     <About/>
+    <section id="/">
+    <Test/>   
+    </section>
+  
+    <section id="latest">
+    <Latest/>
+      </section>
+      <section  id="about">
+      <About/> 
+      </section>
+      <section  id="footer">
+      <Footer/>
+      </section>
 
-     <Footer/>
+   
+     
+    
+
+    
     </>    
 
   );

@@ -13,8 +13,14 @@ function Footer() {
 
       {/* Navigation Links */}
       <div className="flex space-x-10 ml-auto ">
+        <a   href="#about">
         <h1 className=" text-sm md:text-l  text-center hover:text-gray-100 cursor-pointer">ABOUT US</h1>
-        <h1 className=" text-sm md:text-l text-center hover:text-gray-100 cursor-pointer">ARTICLES</h1>
+       
+        </a>
+        <a   href="#latest">
+        <h1 className=" text-sm md:text-l text-center hover:text-gray-100 cursor-pointer">VERSION</h1>
+        </a>
+       
         <button className="h-8 w-36  bg-gray-800 text-white ring-1 ring-gray-500 hover:bg-gray-700 hidden md:block">
              SUBSCRIBE
         </button>

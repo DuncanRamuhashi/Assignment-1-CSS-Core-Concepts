@@ -44,10 +44,10 @@ function Cover() {
             </li>
             <li>
               <a
-                href="#articles"
+                href="#latest"
                 className="text-lg md:text-xl text-zinc-100 hover:text-zinc-400 transition-all"
               >
-                ARTICLES
+                VERSION
               </a>
             </li>
             <li>
