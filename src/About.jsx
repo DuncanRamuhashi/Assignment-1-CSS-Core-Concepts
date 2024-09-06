@@ -3,17 +3,17 @@ import drone5 from './assets/prayer.jpg';
 function About() {
   return (
     <div className="flex bg-zinc-900 text-gray-300">
-      <div className="h-full w-full flex bg-zinc-900 rounded-lg shadow-lg overflow-hidden">
+      <div className="h-full w-full flex flex-col md:flex-row bg-zinc-900 rounded-lg shadow-lg overflow-hidden">
         {/* Image Section */}
         <img
           src={drone5}
           alt="About Us Image"
-          className="w-1/2 h-auto object-cover transition-transform duration-300 ease-in-out hover:scale-105"
+          className=" w-full md:w-1/2  h-auto object-cover transition-transform duration-300 ease-in-out hover:scale-105"
         />
         
         {/* Text Section */}
-        <div className="self-center p-12 w-1/2 flex flex-col justify-center space-y-8 bg-zinc-900">
-          <h1 className="text-center font-bold text-white text-5xl">ABOUT US</h1>
+        <div className="self-center md:p-12 w-1/2 flex flex-col justify-center space-y-8 bg-zinc-900">
+          <h1 className="text-center font-bold text-white text-5xl py-20 md:py-0">ABOUT US</h1>
           
           {/* Decorative line under heading */}
           <div className="flex justify-center">

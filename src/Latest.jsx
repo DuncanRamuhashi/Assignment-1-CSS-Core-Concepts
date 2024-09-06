@@ -16,10 +16,10 @@ function Latest() {
       </div>
 
       {/* Cards Section */}
-      <div className="flex flex-row justify-center h-full items-center bg-zinc-800 p-12 space-x-6 space-y-8">
+      <div className="flex flex-col md:flex-row justify-center h-full items-center bg-zinc-800 p-12 space-x-6 space-y-8">
         {/* Card 1 */}
-        <div className="w-full sm:w-1/3 lg:w-1/4 bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
-          <img src={drone1} alt="NASB" className="h-60 w-full object-cover rounded-t-lg" />
+        <div className="w-full sm:w-1/3 lg:w-1/4  bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+          <img src={drone1} alt="NASB" className="h-60 w-full  rounded-t-lg" />
           <div className="p-6">
             <h2 className="text-xl font-bold text-white mb-2">New American Standard Bible (NASB)</h2>
             <p className="text-gray-400 text-sm">
@@ -29,8 +29,8 @@ function Latest() {
         </div>
 
         {/* Card 2 */}
-        <div className="w-full sm:w-1/3 lg:w-1/4 bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
-          <img src={drone2} alt="KJV" className="h-60 w-full object-cover rounded-t-lg" />
+        <div className="w-full sm:w-1/3 lg:w-1/4  bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+          <img src={drone2} alt="KJV" className="h-60 w-full rounded-t-lg" />
           <div className="p-6">
             <h2 className="text-xl font-bold text-white mb-2">King James Version (KJV)</h2>
             <p className="text-gray-400 text-sm">
@@ -41,7 +41,7 @@ function Latest() {
 
         {/* Card 3 */}
         <div className="w-full sm:w-1/3 lg:w-1/4 bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
-          <img src={drone3} alt="NLT" className="h-60 w-full object-cover rounded-t-lg" />
+          <img src={drone3} alt="NLT" className="h-60 w-full rounded-t-lg" />
           <div className="p-6">
             <h2 className="text-xl font-bold text-white mb-2">New Living Translation (NLT)</h2>
             <p className="text-gray-400 text-sm">
@@ -52,7 +52,7 @@ function Latest() {
 
         {/* Card 4 */}
         <div className="w-full sm:w-1/3 lg:w-1/4 bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
-          <img src={drone4} alt="NIV" className="h-60 w-full object-cover rounded-t-lg" />
+          <img src={drone4} alt="NIV" className="h-60 w-full r rounded-t-lg" />
           <div className="p-6">
             <h2 className="text-xl font-bold text-white mb-2">New International Version (NIV)</h2>
             <p className="text-gray-400 text-sm">

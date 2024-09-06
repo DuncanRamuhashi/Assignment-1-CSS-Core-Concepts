@@ -6,15 +6,15 @@ function Test(){
              
     return(
 
-     <div className="relative h-screen w-full">
+     
          <div
-              className="relative h-full w-full bg-cover bg-center "
+              className="relative h-full  bg-cover bg-center "
               style={{ backgroundImage: `url(${biblePhoto})` }}
          >
               <Cover/>
               <Display/>
         </div>
-     </div>
+    
     );
 
 }
