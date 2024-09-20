@@ -14,7 +14,7 @@ function Footer() {
       {/* Navigation Links */}
       <div className="flex space-x-10 ml-auto ">
         <a   href="#about">
-        <h1 className=" text-sm md:text-l  text-center hover:text-gray-100 cursor-pointer">ABOUT US</h1>
+        <h1 className=" text-sm md:text-l  text-center hover:text-gray-100 cursor-pointer">ABOUT THE BIBLE</h1>
        
         </a>
         <a   href="#latest">

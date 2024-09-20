@@ -13,7 +13,7 @@ function About() {
         
         {/* Text Section */}
         <div className="self-center md:p-12 w-1/2 flex flex-col justify-center space-y-8 bg-zinc-900">
-          <h1 className="text-center font-bold text-white text-5xl py-20 md:py-0">ABOUT US</h1>
+          <h1 className="text-center font-bold text-white text-5xl py-20 md:py-0">ABOUT THE BIBLE</h1>
           
           {/* Decorative line under heading */}
           <div className="flex justify-center">
