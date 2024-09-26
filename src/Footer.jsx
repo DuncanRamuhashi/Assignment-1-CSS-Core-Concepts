@@ -13,11 +13,11 @@ function Footer() {
 
       {/* Navigation Links */}
       <div className="flex space-x-10 ml-auto ">
-        <a   href="#about">
+        <a   href="#about" className='py-2'>
         <h1 className=" text-sm md:text-l  text-center hover:text-gray-100 cursor-pointer">ABOUT THE BIBLE</h1>
        
         </a>
-        <a   href="#latest">
+        <a   href="#latest" className='py-2'>
         <h1 className=" text-sm md:text-l text-center hover:text-gray-100 cursor-pointer">VERSION</h1>
         </a>
         <a href='https://thekingsbible.com/'>

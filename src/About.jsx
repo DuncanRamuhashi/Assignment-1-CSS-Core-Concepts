@@ -1,8 +1,14 @@
 import drone5 from './assets/prayer.jpg';
-
+import React, { useState } from 'react';
 function About() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  
+  const toggleExpansion = () => {
+    setIsExpanded(!isExpanded);
+  };
   return (
-    <div className="flex bg-zinc-900 text-gray-300">
+    <div className="flex bg-zinc-900 text-gray-300 py-9">
       <div className="h-full w-full flex flex-col md:flex-row bg-zinc-900 rounded-lg shadow-lg overflow-hidden">
         {/* Image Section */}
         <img
@@ -13,7 +19,7 @@ function About() {
         
         {/* Text Section */}
         <div className="self-center md:p-12 w-1/2 flex flex-col justify-center space-y-8 bg-zinc-900">
-          <h1 className="text-center font-bold text-white text-5xl py-20 md:py-0">ABOUT THE BIBLE</h1>
+          <h1 className="text-center font-bold text-white text-xl md:text-5xl py-20 md:py-0">ABOUT THE BIBLE</h1>
           
           {/* Decorative line under heading */}
           <div className="flex justify-center">
@@ -21,9 +27,18 @@ function About() {
           </div>
           
           {/* About Us Text */}
-          <p className="text-lg leading-relaxed text-gray-400">
+          <div className="text-base md:text-lg leading-relaxed text-gray-400 text-justify">
+      <div
+        className={`overflow-hidden transition-all duration-500 ease-in-out ${isExpanded ? 'max-h-full' : 'max-h-52'}`}
+      >
+        <p>
           The Bible was written over 1500 years between about 1400 BC and 95AD. The Old Testament is God's dealings with Israel and consists of 39 books written and collected together over 1000 years from 1400BC to 400BC. Then there was a big gap of 400 years until Jesus was born. The New Testament consists of 27 books written between about 50AD and 95AD and is the record of the life and gospel of Jesus Christ. The Old Testament was originally written in Hebrew and Aramaic while the New Testament was written in Greek. Thus the Bible you read is a translation of these original ancient manuscripts which were very carefully preserved and translated.
-          </p>
+        </p>
+      </div>
+      <button onClick={toggleExpansion} className="text-blue-500 font-semibold mt-2">
+        {isExpanded ? 'Read Less' : 'See More'}
+      </button>
+    </div>
         </div>
       </div>
     </div>

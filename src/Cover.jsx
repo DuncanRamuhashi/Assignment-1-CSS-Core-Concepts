@@ -1,11 +1,17 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 
 function Cover() {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+    if (!menuOpen) {
+      setTimeout(() => {
+        setMenuOpen(false);
+      }, 10000); // 10 seconds
+    }
   };
-
+       
+ 
   return (
     <header className="bg-cover bg-zinc-900 text-white">
       <div className="container mx-auto max-w-screen-lg py-6 px-4 flex justify-between items-center">
