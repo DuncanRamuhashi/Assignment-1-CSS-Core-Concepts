@@ -29,15 +29,17 @@ function About() {
           {/* About Us Text */}
           <div className="text-base md:text-lg leading-relaxed text-gray-400 text-justify">
       <div
-        className={`overflow-hidden transition-all duration-500 ease-in-out ${isExpanded ? 'max-h-full' : 'max-h-52'}`}
+        className={`overflow-hidden transition-all duration-500 md:max-h-full ease-in-out ${isExpanded ? 'max-h-full' : 'max-h-52 '}`}
       >
         <p>
           The Bible was written over 1500 years between about 1400 BC and 95AD. The Old Testament is God's dealings with Israel and consists of 39 books written and collected together over 1000 years from 1400BC to 400BC. Then there was a big gap of 400 years until Jesus was born. The New Testament consists of 27 books written between about 50AD and 95AD and is the record of the life and gospel of Jesus Christ. The Old Testament was originally written in Hebrew and Aramaic while the New Testament was written in Greek. Thus the Bible you read is a translation of these original ancient manuscripts which were very carefully preserved and translated.
         </p>
-      </div>
+      </div><div className='py-10'>
       <button onClick={toggleExpansion} className="text-blue-500 font-semibold mt-2 block md:hidden">
         {isExpanded ? 'Read Less' : 'See More'}
       </button>
+      </div>
+
     </div>
         </div>
       </div>
