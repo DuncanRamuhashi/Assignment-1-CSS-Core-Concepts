@@ -58,7 +58,7 @@ function Cover() {
             </li>
             <li>
                 <a href='https://thekingsbible.com/'>
-                <button className="h-8 w-28 md:w-36 text-white bg-transparent ring-1 ring-gray-500 hover:bg-gray-900 transition-all">
+                <button className="h-8 w-28 md:w-36  text-white bg-transparent ring-1 ring-gray-500 hover:bg-gray-900 transition-all">
                 READ BIBLE
               </button>
                 </a>
