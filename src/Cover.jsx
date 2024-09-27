@@ -17,7 +17,7 @@ function Cover() {
       <div className="container mx-auto max-w-screen-lg py-6 px-4 flex justify-between items-center">
         {/* Logo / Title */}
         <div>
-          <h1 className="text-3xl md:text-4xl font-bold font-mono text-zinc-100">
+          <h1 className="text-3xl lg:text-4xl font-bold font-mono text-zinc-100">
             Christian Bible
           </h1>
         </div>

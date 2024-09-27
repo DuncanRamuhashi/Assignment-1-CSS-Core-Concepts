@@ -8,7 +8,7 @@ function Latest() {
     <div className="bg-zinc-900 text-gray-300">
       {/* Hero Section */}
       <div className="relative h-full w-full bg-cover bg-center flex flex-col justify-center items-center text-center p-10">
-        <h1 className="text-5xl font-extrabold text-white mb-6">Latest Versions</h1>
+        <h1 className="text-4xl font-extrabold text-white mb-6">Latest Versions</h1>
         <p className="text-xl text-gray-400 max-w-lg">
           Discover the most recent versions of these popular translations. Each one offers a unique reading experience.
         </p>
@@ -16,7 +16,7 @@ function Latest() {
       </div>
 
       {/* Cards Section */}
-      <div className="flex flex-col md:flex-row justify-center items-center bg-zinc-900 p-12 space-x-0 md:space-x-6 space-y-8 md:space-y-0">
+      <div className="flex flex-col lg:flex-row justify-center items-center bg-zinc-900 p-12 space-x-0 md:gap-6 lg:space-x-6 space-y-8 md:space-y-0">
 
           {/* Card 1 */}
           <div className="w-full sm:w-1/3 lg:w-1/4 flex flex-col bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
