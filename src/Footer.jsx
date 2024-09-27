@@ -4,7 +4,7 @@ function Footer() {
   const year =  new Date().getFullYear();
   return (
     <div className="flex  flex-col gap-10  bg-zinc-900 text-gray-300 p-10 space-x-4">
-      <div className='flex justify-between'>
+      <div className='flex justify-between space-x-4 '>
             {/* Social Media Icons */}
       <div className="flex space-x-8">
         <FaFacebook className="h-8 w-5 md:w-12 cursor-pointer hover:text-blue-500 transition-colors duration-300" />
