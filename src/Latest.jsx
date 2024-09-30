@@ -19,7 +19,7 @@ function Latest() {
       <div className="flex flex-col lg:flex-row justify-center items-center bg-zinc-900 p-12 space-x-0 md:gap-6 lg:space-x-6 space-y-8 md:space-y-0">
 
           {/* Card 1 */}
-          <div className="w-full sm:w-1/3 lg:w-1/4 flex flex-col bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+          <div className="w-full sm:w-1/3 lg:w-1/4 h-[470px] lg:h-[400px] flex flex-col bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
           <img src={drone1} alt="KJV" className="h-60 w-full rounded-t-lg object-fill" />
           <div className="p-6 flex-grow">
             <h2 className="text-xl font-bold text-white mb-2">New American Standard </h2>
@@ -29,7 +29,7 @@ function Latest() {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="w-full sm:w-1/3 lg:w-1/4 flex flex-col bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+        <div className="w-full sm:w-1/3 lg:w-1/4 flex flex-col h-[470px] lg:h-[400px] bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
           <img src={drone2} alt="KJV" className="h-60 w-full rounded-t-lg object-fill" />
           <div className="p-6 flex-grow">
             <h2 className="text-xl font-bold text-white mb-2">King James Version </h2>
@@ -40,7 +40,7 @@ function Latest() {
         </div>
 
         {/* Card 3 */}
-        <div className="w-full sm:w-1/3 lg:w-1/4 flex flex-col bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+        <div className="w-full sm:w-1/3 lg:w-1/4 flex flex-col h-[470px] lg:h-[400px]  bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
           <img src={drone3} alt="NLT" className="h-60 w-full rounded-t-lg object-cover" />
           <div className="p-6 flex-grow">
             <h2 className="text-xl font-bold text-white mb-2">New Living Translation </h2>
@@ -51,7 +51,7 @@ function Latest() {
         </div>
 
         {/* Card 4 */}
-        <div className="w-full sm:w-1/3 lg:w-1/4 flex flex-col bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+        <div className="w-full sm:w-1/3 lg:w-1/4 flex flex-col h-[470px] lg:h-[400px] bg-zinc-700 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
           <img src={drone4} alt="NIV" className="h-60 w-full rounded-t-lg object-cover" />
           <div className="p-6 flex-grow">
             <h2 className="text-xl font-bold text-white mb-2">New International Version</h2>
