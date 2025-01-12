@@ -33,7 +33,7 @@ function Footer() {
       </div>
          {/* Footer Copyright */}
          <div>
-         <p className='text-gray-100 py-2 text-center  '>&copy; {year} Duncan Ramuhashi. All rights reserved.</p>
+         <p className='text-gray-100 py-2 text-center  '>&copy; {year} Christian Bible. All rights reserved.</p>
          </div>
      
     </div>
